@@ -148,7 +148,7 @@ func type_l_process(sa *selpg_args, reader *bufio.Reader, stdin io.WriteCloser)
 
 func ReadFromStdin(sa *selpg_args, stdin io.WriteCloser)
 {
-	stdinInput := bufio.NewScanner(os.stdin)
+	StdinInput := bufio.NewScanner(os.stdin)
 	num := 0
 	Output := ""
 	temp := ""
